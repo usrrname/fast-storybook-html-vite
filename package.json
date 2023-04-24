@@ -1,0 +1,31 @@
+{
+  "name": "fast-storybook-7-html-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "npm run build && npm run dev",
+    "preview": "vite preview --port 8080",
+    "start:sb": "storybook dev -p 6006",
+    "build:sb": "storybook build -p 6006"
+  },
+  "devDependencies": {
+    "@storybook/cli": "^7.0.6",
+    "@storybook/csf": "^0.1.0",
+    "@storybook/html": "^7.0.6",
+    "@storybook/html-vite": "^7.0.6",
+    "@storybook/types": "^7.0.6",
+    "storybook": "^7.0.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@microsoft/fast-element": "2.0.0-beta.23",
+    "@microsoft/fast-foundation": "3.0.0-alpha.27",
+    "@microsoft/fast-react-wrapper": "1.0.0-alpha.7",
+    "@microsoft/fast-web-utilities": "^6.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "src/components/index.ts": {
+    "file": "fast-storybook-7-html-vite.cjs",
+    "isEntry": true,
+    "src": "src/components/index.ts"
+  }
+}

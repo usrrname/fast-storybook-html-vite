@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("@microsoft/fast-foundation");class n extends e.FASTTextField{}const a=n.define({name:"fast-text-field",template:e.textFieldTemplate()});class d extends e.FASTButton{}const i=d.define({name:"fast-button",template:e.buttonTemplate()});exports.Button=i;exports.TextField=a;
