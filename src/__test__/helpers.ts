@@ -47,10 +47,10 @@ export function fixtureURL(
 export type FASTFramework = {
   component: typeof FASTElement | HtmlRenderer['component'];
   storyResult:
-    | FASTElement
-    | Element
-    | DocumentFragment
-    | HtmlRenderer['storyResult'];
+  | FASTElement
+  | Element
+  | DocumentFragment
+  | HtmlRenderer['storyResult'];
   canvasElement: Renderer['canvasElement'] | HTMLCanvasElement;
 };
 
@@ -91,7 +91,8 @@ export declare type Story<TArgs = Args> = StoryObj<TArgs>;
  */
 export type StoryArgs<TArgs = Args> = Partial<Omit<TArgs, keyof FASTElement>>;
 
-// source: https://github.com/ni/nimble/blob/main/packages/nimble-components/src/utilities/tests/storybook.ts
+/** Rendering functions below from nimble team
+ * source: https://github.com/ni/nimble/blob/main/packages/nimble-components/src/utilities/tests/storybook.ts */
 
 /**
  * Renders a ViewTemplate as elements in a DocumentFragment.
@@ -108,7 +109,7 @@ const renderViewTemplate = <TSource>(
 };
 
 /**
- *  Renders a FAST `html` template as a story.
+ *  Renders a FAST `html` template as a story. 
  */
 export const createStory = <TSource>(
   viewTemplate: ViewTemplate<TSource>
