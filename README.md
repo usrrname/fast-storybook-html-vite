@@ -1,6 +1,6 @@
 # fast-storybook-html-vite
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-5x3tjx)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/fast-sb7-html-vite)
 
 Demo stackblitz using `@storybook/html-vite@7.0.7` with FAST design component packages:
 
@@ -10,6 +10,10 @@ Demo stackblitz using `@storybook/html-vite@7.0.7` with FAST design component pa
     "@microsoft/fast-react-wrapper": "1.0.0-alpha.7",
     "@microsoft/fast-web-utilities": "^6.0.0"
 ```
+
+## Run it on StackBlitz
+
+`npm run serve:build` and visit: `https://fastsb7htmlvite-rpxd--5173--d830b1a2.local-credentialless.webcontainer.io/storybook-static/`
 
 ## Known Issues
 
